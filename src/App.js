@@ -41,7 +41,7 @@ class App extends Component {
 				<Menu dishes={this.state.dishes} />
 				<button onClick={() => this.handleClick()}>add more dish</button>
 				<Count numberOfDishes={this.state.dishes.length} />
-			</div>
+			</div>	
 		);
 	}
 }
